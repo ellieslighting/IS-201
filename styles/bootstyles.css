@@ -1,0 +1,69 @@
+/*Ellie Slighting 12/16/2021*/
+body {
+    background-color: pink;
+    }
+    .common {
+       /* background-color: #cccccc;
+        border: solid 2px white;*/
+        position: absolute;
+    }
+    .header {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        height: 100px;
+        z-index: 2;
+        border-bottom: solid 1px #555555;
+    
+    }
+    .leftmenu {
+        top: 114px;
+        left:5px ;
+        width: 100px;
+        bottom: 64px;
+        z-index: 1;
+        padding-top: 40px;
+        border-right: solid 1px #555555;
+    }
+    .mainbody {
+        top: 114px;
+        bottom: 64px;
+        left: 114px;
+        right: 114px;
+        padding-right: 5px;
+    }
+    
+    .rightmenu {
+        top: 114px;
+        bottom: 64px;
+        right: 5px;
+        width: 100px;
+        border-left: solid 1px #555555;
+        padding-left: 5px;
+    }
+    
+    .footer {
+        bottom:25px;
+        height: 10px;
+        left: 5px;
+        right: 5px;
+        font-size: 15px;
+        color: #1d1c1c;
+        text-align: center;
+        }
+    
+ 
+ .text {
+        color: rgb(46, 45, 45);
+        text-align: center;
+    }
+
+.nav {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {display: inline;}
+
+.emphasized {font-style: italic;}
